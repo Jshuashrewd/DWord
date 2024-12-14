@@ -1,0 +1,32 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.screen {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.option-button {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes countdown {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.timer.warning {
+  color: var(--error);
+  animation: countdown 0.5s ease-in-out;
+}

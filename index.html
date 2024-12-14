@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DWORD</title>
+  <link rel="stylesheet" href="src/styles/main.css">
+  <link rel="stylesheet" href="src/styles/components.css">
+  <link rel="stylesheet" href="src/styles/animations.css">
+</head>
+<body>
+
+  <!-- Welcome Screen -->
+   <section id="welcome-screen" class="screen active">
+    <div class="container">
+      <div class="card">
+        <div class="icon-container">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+        </svg>
+        </div>
+        <h1>DWord Bible Game</h1>
+        <p>Test your knowledge of the Bible with questions from both the Old and New Testament. Challenge yourself with our timed questions!</p>
+        <button id="start-button" class="primary-button" onclick="startQuiz()">
+          <svg xmlns="http://www.w3.org/2000/svg" class="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polygon points="10 8 16 12 10 16 10 8"></polygon>
+          </svg>
+          Start Quiz
+      </button>
+      </div>
+    </div>
+   </section>
+
+  <script src="src/js/location.js"></script>
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
